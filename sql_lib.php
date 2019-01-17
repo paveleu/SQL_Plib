@@ -13,7 +13,7 @@ class DB
 	{
         if(!isset($sql_lib_conf))                       //default connection config
         {
-            $sql_lib_conf[
+            $sql_lib_conf = [
                 'host'=>'127.0.0.1',        
                 'login'=>'root',
                 'pass'=>'root',
